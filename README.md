@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/33781241/README.md)
 # Julian Andres Rodriguez Garcia
 
-**Systems Engineer · Python Backend · Linux · Security · Founder of Aeis LLC**
+**Systems Engineer · Python Backend · Linux · Security · Aeis LLC**
 
 I build software for sensitive data and my own products, and I document how I build it.
 I care about work that leaves reviewable evidence: running code, tests, documentation,
@@ -25,7 +25,7 @@ and labs anyone can reproduce.
    <!-- add your merged PRs: "Decompressed-size limit against ZIP bombs (#12)",
   "Per-invoice duplicate control in batch processing (#15)", etc. -->
 
-**Founder — [Aeis LLC](https://aeisone.com)**
+**[Aeis LLC](https://aeisone.com)**
 
 - **Aeis 1** — AI chord progression generator for DAW producers.
 - **Aeis 1.1** — vocal chain preset generator: a from-scratch engine with a YAML preset
