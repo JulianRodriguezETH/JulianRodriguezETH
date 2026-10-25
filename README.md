@@ -106,4 +106,4 @@ Upcoming
 
 ## Find me online
 
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/julianr9eth)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/julian9eth)
