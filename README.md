@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/33781241/README.md)
+**[README.md](https://github.com/user-attachments/files/33781241/README.md)
 # Julian Andres Rodriguez Garcia
 
 **Systems Engineer · Python Backend · Linux · Security · Aeis LLC**
@@ -32,7 +32,7 @@ and labs anyone can reproduce.
   library and server-side free/pro separation.
 - **The Beauty App** — iOS marketplace for independent beauty professionals: bookings,
   Mapbox search, Firestore data, and geolocation with Capacitor.
-  <!-- add the App Store link -->
+  https://apps.apple.com/us/app/the-beauty-app/id6789223034
 
 ---
 
@@ -106,4 +106,4 @@ Upcoming
 
 ## Find me online
 
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/julian9eth)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/julian9eth)**
