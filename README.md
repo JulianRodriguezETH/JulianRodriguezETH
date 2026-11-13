@@ -1,4 +1,3 @@
-**[README.md](https://github.com/user-attachments/files/33781241/README.md)
 # Julian Andres Rodriguez Garcia
 
 **Systems Engineer · Python Backend · Linux · Security · Aeis LLC**
@@ -22,8 +21,15 @@ and labs anyone can reproduce.
 - Security by design: no AI in the decision path, identity derived from the JWT, API bound to
   `127.0.0.1` only, every finding cites its legal source, and input files (ZIP, XML, PDF)
   are treated as hostile.
-   <!-- add your merged PRs: "Decompressed-size limit against ZIP bombs (#12)",
-  "Per-invoice duplicate control in batch processing (#15)", etc. -->
+- What I've shipped (merged, signed, tests first):
+  - Hardened ZIP intake shared by every module: entry and decompressed-size caps,
+    central-directory checks and only stored/deflate entries, all failing closed.
+  - Per-payer packaging, so documents for one payer can never end up in another's package.
+  - Hardening of the portal connector: credentials kept out of logs and errors, encrypted
+    connections only, strict limits on everything it downloads, atomic and byte-for-byte
+    reproducible Excel output, and CI on Linux and Windows.
+  - CI with `pip-audit` for the collections module, plus security tests that reproduce
+    a finding before it is fixed.
 
 **[Aeis LLC](https://aeisone.com)**
 
@@ -38,9 +44,11 @@ and labs anyone can reproduce.
 
 ## Projects
 
-- **homelab** — my home server run like a small production system:
-  Proxmox, encrypted Debian VMs, a MikroTik firewall, backups with restore tests, and
-  everything documented as code. <!-- link when published -->
+- **homelab** — learning Red Hat the way it runs in production, on hardware I already own:
+  a RHEL 10 lab VM (SELinux enforcing, firewalld, SSH keys, persistent journal, kernel
+  management with `grubby`, snapshots before every experiment) and an always-on Debian
+  server running Pi-hole and Uptime Kuma. Next: Ansible playbooks to rebuild the server
+  from scratch, and RHCSA practice. <!-- link when published -->
 
 <!-- Each new project: what it does, how it does it, and what made it hard or interesting. -->
 
@@ -73,8 +81,9 @@ and labs anyone can reproduce.
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![Red Hat Enterprise Linux](https://img.shields.io/badge/RHEL-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
 ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white)
+![Pi-hole](https://img.shields.io/badge/Pi--hole-96060C?style=for-the-badge&logo=pihole&logoColor=white)
 
 **Security**
 
@@ -83,6 +92,7 @@ and labs anyone can reproduce.
 ![pip-audit](https://img.shields.io/badge/pip--audit-555555?style=for-the-badge)
 ![SSH](https://img.shields.io/badge/SSH-555555?style=for-the-badge)
 ![ufw](https://img.shields.io/badge/ufw-555555?style=for-the-badge)
+![SELinux](https://img.shields.io/badge/SELinux-555555?style=for-the-badge)
 ![Signed commits](https://img.shields.io/badge/Signed_commits-555555?style=for-the-badge)
 
 ---
@@ -90,6 +100,7 @@ and labs anyone can reproduce.
 ## Education & certifications
 
 - Systems Engineering, Universidad Autonoma de Bucaramanga - final year, expected Dec. 2026
+- Preparing: **RHCSA (EX200)**, Red Hat Certified System Administrator
   <!-- each certification with issue date and validity, e.g.:
      CompTIA Security+ (SY0-701) — issued Mon YYYY, valid through Mon YYYY -->
 
@@ -106,4 +117,5 @@ Upcoming
 
 ## Find me online
 
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/julian9eth)**
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/julian9eth)
+
